@@ -1,0 +1,23 @@
+.bottom_btn_box{
+    position:absolute;
+    bottom:0;
+    left:0;
+    display:flex;
+    width:100%;
+    height:35px;
+    border-top:1px solid #ddd;
+}
+.bottom_btn_box .btn_item{
+    width:50%;
+    background:#5096f5;
+    text-align:center;
+    line-height:35px;
+    font-size:14px;
+    color:#fff;
+    border-right:1px solid #ddd;
+    cursor:pointer;
+}
+.bottom_btn_box .right_none{
+    border-right:none;
+}
+
